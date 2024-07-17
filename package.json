@@ -1,0 +1,16 @@
+{
+  "name": "attendance",
+  "version": "1.0.0",
+  "description": "Marking daily attendance",
+  "main": "index.js",
+  "scripts": {
+    "test-inspect": "PWDEBUG=1 npx playwright test",
+    "signIn": "npx playwright test 'sIn.spec.js' -g 'sIn' --headed",
+    "signOut": "npx playwright test 'sOut.spec.js' -g 'sOut' --headed"
+  },
+  "author": "Hitesh Pariyani",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.20.1"
+  }
+}
