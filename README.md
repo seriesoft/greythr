@@ -29,3 +29,13 @@ Then your HOMEPAGE_URL is `https://companyname.greythr.com/`, LOGOUT_URL is `htt
 - Run `npm run signIn` to login to Greythr and you will see that chromium window will open and you will be logged in and finally it will close the window automatically.
 
 - Similar to signIn, Run `npm run signOut` to logout of Greythr
+
+## Features
+
+- Login to Greythr
+- Logout of Greythr
+
+## Upcoming features
+
+- Scheduling of login and logout
+- Consideration of holidays in login and logout
